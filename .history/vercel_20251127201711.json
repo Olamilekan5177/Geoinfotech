@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "geoinfotech-security-infrastructure-map\web\index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "geoinfotech-security-infrastructure-map/web/$1" }
+  ]
+}
